@@ -1,0 +1,22 @@
+Crear un algoritmo que permita determinar si un número es par y mostrarlo por pantalla. En caso que no lo sea, continuar con la ejecución del programa.
+INICIO
+PRINT “HOLA BIENVENIDO”
+If (numero % 2 == 0) entonces
+	PRINT ”EL + numero + “ES PAR”
+Fin sin
+PRINT “CHAU”
+FIN
+
+Realizar un algoritmo que solicite dos números y advierta si el primer número es múltiplo del segundo. Indicar al usuario y validar, que no son posibles los valores negativos o iguales a 0.
+
+INICIO
+LEER numero1
+LEER numero2
+If(numero1 <=0 || numero2 <= 0) entonces
+	PRINT “Deben ser positivos y mayores que cero”
+//Dos números son múltiplos si el resto de la división entre ellos es 0
+SiNo If(numero1 % numero2 == 0) entonces
+	PRINT numero1 +  “es múltiplo de” + numero2
+SiNo
+	PRINT “No son multiplos”
+FIN
